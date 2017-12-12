@@ -30,58 +30,7 @@
 		                <div class="module left">
                       <?php $nav = array('theme_location' => 'navigation-menu');
                       wp_nav_menu($nav); ?>
-		                    <!-- <ul class="menu">
 
-		                            <a href="#"><?php $nav = array('theme_location' => 'navigation-menu');
-                                wp_nav_menu($nav); ?></a>
-
-		                        <li class="has-dropdown">
-		                            <a href="#">
-		                                Mega Menu
-		                            </a>
-		                            <ul class="mega-menu">
-		                                <li>
-		                                    <ul>
-		                                        <li>
-		                                            <span class="title">Column 1</span>
-		                                        </li>
-		                                        <li>
-		                                            <a href="#">Single</a>
-		                                        </li>
-		                                    </ul>
-		                                </li>
-		                                <li>
-		                                    <ul>
-		                                        <li>
-		                                            <span class="title">Column 2</span>
-		                                        </li>
-		                                        <li>
-		                                            <a href="#">Single</a>
-		                                        </li>
-		                                    </ul>
-		                                </li>
-		                            </ul>
-		                        </li>
-		                        <li class="has-dropdown">
-		                            <a href="#">
-		                                Single Dropdown
-		                            </a>
-		                            <ul>
-		                                <li class="has-dropdown">
-		                                    <a href="#">
-		                                        Second Level
-		                                    </a>
-		                                    <ul>
-		                                        <li>
-		                                            <a href="#">
-		                                                Single
-		                                            </a>
-		                                        </li>
-		                                    </ul>
-		                                </li>
-		                            </ul>
-		                        </li>
-		                    </ul> -->
 		                </div>
 
 		                <div class="module widget-handle language left">

@@ -30,4 +30,22 @@ function register_my_menus() {
 
 add_action( 'init', 'register_my_menus' );
 
+//Widgets
+function register_my_widgets() {
+    register_sidebar( array(
+        'name' => __( 'Footer Sidebar', 'theme-slug' ),
+        'id' => 'sidebar-1',
+        'description' => __( 'Widgets in this area will be shown right before Footer on all and pages.', 'theme-slug' ),
+        'before_widget' => '<li id="%1$s" class="widget %2$s col-md-4 text-center">',
+	      'after_widget'  => '</li>',
+	      'before_title'  => '<h2 class="widgettitle">',
+	      'after_title'   => '</h2>',
+    ) );
+
+}
+
+add_action( 'widgets_init', 'register_my_widgets' );
+
+
+
  ?>

@@ -4,7 +4,9 @@ get_header(); ?>
 
 
 		<div class="main-container">
-		<section class="image-bg parallax pt240 pb180 pt-xs-80 pb-xs-80">
+
+			<!-- HOME COVER -->
+			<section class="image-bg parallax pt240 pb180 pt-xs-80 pb-xs-80">
 				<div class="background-image-holder">
 					<?php $image = get_field('first_cover_image'); ?>
 					<img alt="image" class="background-image" src="<?php echo $image['url']; ?>">
@@ -25,6 +27,7 @@ get_header(); ?>
 
 			</section>
 
+      <!-- SECOND PART OF ABOUT US PAGE (1 MAIN and 2 SMALLER HEADINGS, TEXT and PICTURE) -->
 			<section>
 				<div class="container">
 					<div class="row v-align-children">
@@ -53,6 +56,7 @@ get_header(); ?>
 
 			</section>
 
+			<!-- THIRD PART OF HOME PAGE (1 HEADING and TEXT OVER PICTURE) -->
 			<section class="image-bg overlay parallax pt180 pb180 pt-xs-80 pb-xs-80">
 				<div class="background-image-holder">
 					<?php $image = get_field('cover_2'); ?>
@@ -73,6 +77,7 @@ get_header(); ?>
 
 			</section>
 
+			<!-- FOURTH PART OF HOME PAGE (SLIDER WITH 4 HEADINGS AND TEXT AROUND) -->
 			<section>
 				<div class="container">
 					<div class="row">
@@ -176,6 +181,7 @@ get_header(); ?>
 
 			</section>
 
+			<!-- FEATURES WITH 3 HEADINGS AND TEXT -->
 			<section>
 		        <div class="container">
 		            <div class="row">
@@ -210,7 +216,10 @@ get_header(); ?>
 
 		        </div>
 
-		    </section><section class="bg-dark pb0">
+		    </section>
+
+				<!-- LAST PART OF HOME PAGE WITH HEADING, TEXT, BUTTON AND PICTURE -->
+				<section class="bg-dark pb0">
 				<div class="container">
 					<div class="row mb64 mb-xs-32">
 						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">

@@ -1,6 +1,13 @@
 <footer class="footer-2 bg-dark text-center-xs">
   <div class="container">
     <div class="row">
+      <ul id="sidebar" class="list-inline">
+       <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+		   <?php dynamic_sidebar( 'sidebar-1' ); ?>
+       <?php endif; ?>
+     </ul>
+    </div>
+    <div class="row">
       <div class="col-sm-4">
         <a href="#"><img class="image-xxs fade-half" alt="Pic" src="<?php echo get_template_directory_uri(); ?>/img/logo-light.png"></a>
       </div>
